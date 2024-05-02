@@ -1,0 +1,118 @@
+/* Updated CSS with Gradient Background and Background Image of Bubbles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    background: url('bubbles.jpg'); /* Gradient background with bubbles image */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    backdrop-filter: blur(10px); /* Apply a blur effect to the background */
+}
+
+
+.box {
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+    backdrop-filter: blur(15px);
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.calc {
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.4); /* Semi-transparent white */
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.screen {
+    position: relative; /* Set position to relative to contain absolutely positioned arrow (not used here) */
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    backdrop-filter: blur(500px);
+    border-radius: 20px;
+    padding: 20px; /* Increased padding */
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 30px;
+    height: 60px; /* Increased height */
+    /* Remove overflow-y to disable scrollbar */
+    animation: popUp 0.3s ;
+  }
+  
+  @keyframes popUp {
+    from {
+      transform: translateY(20px); /* Move the element up 20px initially */
+      opacity: 0; /* Start with 0 opacity (invisible) */
+    }
+    to {
+      transform: translateY(0); /* Move the element back to its original position */
+      opacity: 1; /* End with full opacity (visible) */
+    }
+  }
+  
+.screen #display {
+    font-family: 'Poppins';
+    font-size: 40px; /* Increased font size */
+    text-shadow: 1px 1px 2px rgba(7, 7, 7, 0.5);
+    transition: color 0.3s; /* Add transition for smooth color change */
+    /* Default color for light theme */
+    color: #3d2914; /* Dark brown */
+  }
+
+
+
+.buttons table {
+    width: 100%;
+}
+
+.buttons td {
+    padding: 10px;
+    text-align: center;
+}
+
+.buttons button {
+    font-family: 'Poppins';
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #c598af; /* Gradient button color */
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #835f6c; /* Slightly darker gradient button color on hover */
+}
+
+.theme-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.theme-button p {
+    margin-left: 5px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #fff;
+}
+
+.theme-icon {
+    font-size: 20px;
+    color: #fff;
+}
+
+.active {
+    background-color: #f26c4f; /* Pastel red */
+}
