@@ -54,20 +54,7 @@ This sleek app boasts a user-friendly interface designed for efficient task mana
 - Responsive Design: Enjoy a consistent experience across desktop and mobile devices.
 - Date and Time Stamp: Keep track of task creation with automatic timestamping.
 - Custom Styling: Personalize your to-do list with unique CSS styling options.
-## Task 3: To-Do List Web App
 
-### Description
-
-This sleek app boasts a user-friendly interface designed for efficient task management. With its intuitive features and responsive design, users can effortlessly add, edit, and delete tasks from any device. Each task is automatically timestamped, ensuring users stay organized and on track. Plus, the customizable CSS styling allows for personalization to suit individual preferences.
-
-
-### Featues
-
-- Intuitive Interface: Simplified layout for effortless task management.
-- Dynamic Functionality: Add, edit, and delete tasks seamlessly.
-- Responsive Design: Enjoy a consistent experience across desktop and mobile devices.
-- Date and Time Stamp: Keep track of task creation with automatic timestamping.
-- Custom Styling: Personalize your to-do list with unique CSS styling options.
 ## Task 4: User Authentication
 
 ### Description
